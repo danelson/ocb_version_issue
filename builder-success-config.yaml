@@ -1,0 +1,9 @@
+dist:
+  name: "otelcol-dev"
+  description: "Working example"
+  otelcol_version: "0.96.0"
+exporters:
+  - gomod: "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/myexporter v0.96.0"
+    path: "./exporter/myexporter"
+extensions:
+  - gomod: "github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage v0.96.0"

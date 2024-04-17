@@ -1,0 +1,9 @@
+{
+	"name": "ocb_version_issue",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	"postCreateCommand": ".devcontainer/post_create.sh",
+	"remoteUser": "vscode"
+}
