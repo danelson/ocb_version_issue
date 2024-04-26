@@ -1,5 +1,7 @@
 # ocb version issue
 
+See github.com/open-telemetry/opentelemetry-collector/issues/9988
+
 1. Open devcontainer in VSCode.
 2. Build the custom collector with the [bad builder config](builder-fail-config.yaml).
 
